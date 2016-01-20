@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52EDCC001C4F2045000181FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDCBFF1C4F2045000181FC /* main.m */; };
+		52EDCC031C4F2045000181FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDCC021C4F2045000181FC /* AppDelegate.m */; };
+		52EDCC061C4F2045000181FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDCC051C4F2045000181FC /* ViewController.m */; };
+		52EDCC091C4F2045000181FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EDCC071C4F2045000181FC /* Main.storyboard */; };
+		52EDCC0B1C4F2045000181FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EDCC0A1C4F2045000181FC /* Assets.xcassets */; };
+		52EDCC0E1C4F2045000181FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EDCC0C1C4F2045000181FC /* LaunchScreen.storyboard */; };
+		52EDCC191C4F2045000181FC /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDCC181C4F2045000181FC /* ____Tests.m */; };
+		52EDCC241C4F2045000181FC /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDCC231C4F2045000181FC /* ____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52EDCC151C4F2045000181FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52EDCBF31C4F2045000181FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52EDCBFA1C4F2045000181FC;
+			remoteInfo = "滑动按钮";
+		};
+		52EDCC201C4F2045000181FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52EDCBF31C4F2045000181FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52EDCBFA1C4F2045000181FC;
+			remoteInfo = "滑动按钮";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52EDCBFB1C4F2045000181FC /* 滑动按钮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "滑动按钮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EDCBFF1C4F2045000181FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52EDCC011C4F2045000181FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52EDCC021C4F2045000181FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52EDCC041C4F2045000181FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52EDCC051C4F2045000181FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52EDCC081C4F2045000181FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52EDCC0A1C4F2045000181FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52EDCC0D1C4F2045000181FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52EDCC0F1C4F2045000181FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EDCC141C4F2045000181FC /* 滑动按钮Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "滑动按钮Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EDCC181C4F2045000181FC /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		52EDCC1A1C4F2045000181FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EDCC1F1C4F2045000181FC /* 滑动按钮UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "滑动按钮UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EDCC231C4F2045000181FC /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		52EDCC251C4F2045000181FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52EDCBF81C4F2045000181FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDCC111C4F2045000181FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDCC1C1C4F2045000181FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52EDCBF21C4F2045000181FC = {
+			isa = PBXGroup;
+			children = (
+				52EDCBFD1C4F2045000181FC /* 滑动按钮 */,
+				52EDCC171C4F2045000181FC /* 滑动按钮Tests */,
+				52EDCC221C4F2045000181FC /* 滑动按钮UITests */,
+				52EDCBFC1C4F2045000181FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52EDCBFC1C4F2045000181FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52EDCBFB1C4F2045000181FC /* 滑动按钮.app */,
+				52EDCC141C4F2045000181FC /* 滑动按钮Tests.xctest */,
+				52EDCC1F1C4F2045000181FC /* 滑动按钮UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52EDCBFD1C4F2045000181FC /* 滑动按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				52EDCC011C4F2045000181FC /* AppDelegate.h */,
+				52EDCC021C4F2045000181FC /* AppDelegate.m */,
+				52EDCC041C4F2045000181FC /* ViewController.h */,
+				52EDCC051C4F2045000181FC /* ViewController.m */,
+				52EDCC071C4F2045000181FC /* Main.storyboard */,
+				52EDCC0A1C4F2045000181FC /* Assets.xcassets */,
+				52EDCC0C1C4F2045000181FC /* LaunchScreen.storyboard */,
+				52EDCC0F1C4F2045000181FC /* Info.plist */,
+				52EDCBFE1C4F2045000181FC /* Supporting Files */,
+			);
+			path = "滑动按钮";
+			sourceTree = "<group>";
+		};
+		52EDCBFE1C4F2045000181FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52EDCBFF1C4F2045000181FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52EDCC171C4F2045000181FC /* 滑动按钮Tests */ = {
+			isa = PBXGroup;
+			children = (
+				52EDCC181C4F2045000181FC /* ____Tests.m */,
+				52EDCC1A1C4F2045000181FC /* Info.plist */,
+			);
+			path = "滑动按钮Tests";
+			sourceTree = "<group>";
+		};
+		52EDCC221C4F2045000181FC /* 滑动按钮UITests */ = {
+			isa = PBXGroup;
+			children = (
+				52EDCC231C4F2045000181FC /* ____UITests.m */,
+				52EDCC251C4F2045000181FC /* Info.plist */,
+			);
+			path = "滑动按钮UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52EDCBFA1C4F2045000181FC /* 滑动按钮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EDCC281C4F2045000181FC /* Build configuration list for PBXNativeTarget "滑动按钮" */;
+			buildPhases = (
+				52EDCBF71C4F2045000181FC /* Sources */,
+				52EDCBF81C4F2045000181FC /* Frameworks */,
+				52EDCBF91C4F2045000181FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "滑动按钮";
+			productName = "滑动按钮";
+			productReference = 52EDCBFB1C4F2045000181FC /* 滑动按钮.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52EDCC131C4F2045000181FC /* 滑动按钮Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EDCC2B1C4F2045000181FC /* Build configuration list for PBXNativeTarget "滑动按钮Tests" */;
+			buildPhases = (
+				52EDCC101C4F2045000181FC /* Sources */,
+				52EDCC111C4F2045000181FC /* Frameworks */,
+				52EDCC121C4F2045000181FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EDCC161C4F2045000181FC /* PBXTargetDependency */,
+			);
+			name = "滑动按钮Tests";
+			productName = "滑动按钮Tests";
+			productReference = 52EDCC141C4F2045000181FC /* 滑动按钮Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52EDCC1E1C4F2045000181FC /* 滑动按钮UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EDCC2E1C4F2045000181FC /* Build configuration list for PBXNativeTarget "滑动按钮UITests" */;
+			buildPhases = (
+				52EDCC1B1C4F2045000181FC /* Sources */,
+				52EDCC1C1C4F2045000181FC /* Frameworks */,
+				52EDCC1D1C4F2045000181FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EDCC211C4F2045000181FC /* PBXTargetDependency */,
+			);
+			name = "滑动按钮UITests";
+			productName = "滑动按钮UITests";
+			productReference = 52EDCC1F1C4F2045000181FC /* 滑动按钮UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52EDCBF31C4F2045000181FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Macbook Pro";
+				TargetAttributes = {
+					52EDCBFA1C4F2045000181FC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					52EDCC131C4F2045000181FC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 52EDCBFA1C4F2045000181FC;
+					};
+					52EDCC1E1C4F2045000181FC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 52EDCBFA1C4F2045000181FC;
+					};
+				};
+			};
+			buildConfigurationList = 52EDCBF61C4F2045000181FC /* Build configuration list for PBXProject "滑动按钮" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52EDCBF21C4F2045000181FC;
+			productRefGroup = 52EDCBFC1C4F2045000181FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52EDCBFA1C4F2045000181FC /* 滑动按钮 */,
+				52EDCC131C4F2045000181FC /* 滑动按钮Tests */,
+				52EDCC1E1C4F2045000181FC /* 滑动按钮UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52EDCBF91C4F2045000181FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDCC0E1C4F2045000181FC /* LaunchScreen.storyboard in Resources */,
+				52EDCC0B1C4F2045000181FC /* Assets.xcassets in Resources */,
+				52EDCC091C4F2045000181FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDCC121C4F2045000181FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDCC1D1C4F2045000181FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52EDCBF71C4F2045000181FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDCC061C4F2045000181FC /* ViewController.m in Sources */,
+				52EDCC031C4F2045000181FC /* AppDelegate.m in Sources */,
+				52EDCC001C4F2045000181FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDCC101C4F2045000181FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDCC191C4F2045000181FC /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDCC1B1C4F2045000181FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDCC241C4F2045000181FC /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52EDCC161C4F2045000181FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52EDCBFA1C4F2045000181FC /* 滑动按钮 */;
+			targetProxy = 52EDCC151C4F2045000181FC /* PBXContainerItemProxy */;
+		};
+		52EDCC211C4F2045000181FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52EDCBFA1C4F2045000181FC /* 滑动按钮 */;
+			targetProxy = 52EDCC201C4F2045000181FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52EDCC071C4F2045000181FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EDCC081C4F2045000181FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52EDCC0C1C4F2045000181FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EDCC0D1C4F2045000181FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52EDCC261C4F2045000181FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52EDCC271C4F2045000181FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52EDCC291C4F2045000181FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "滑动按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fSKY.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52EDCC2A1C4F2045000181FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "滑动按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fSKY.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52EDCC2C1C4F2045000181FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "滑动按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fSKY.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/滑动按钮.app/滑动按钮";
+			};
+			name = Debug;
+		};
+		52EDCC2D1C4F2045000181FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "滑动按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fSKY.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/滑动按钮.app/滑动按钮";
+			};
+			name = Release;
+		};
+		52EDCC2F1C4F2045000181FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "滑动按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fSKY.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "滑动按钮";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		52EDCC301C4F2045000181FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "滑动按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fSKY.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "滑动按钮";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52EDCBF61C4F2045000181FC /* Build configuration list for PBXProject "滑动按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EDCC261C4F2045000181FC /* Debug */,
+				52EDCC271C4F2045000181FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EDCC281C4F2045000181FC /* Build configuration list for PBXNativeTarget "滑动按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EDCC291C4F2045000181FC /* Debug */,
+				52EDCC2A1C4F2045000181FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52EDCC2B1C4F2045000181FC /* Build configuration list for PBXNativeTarget "滑动按钮Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EDCC2C1C4F2045000181FC /* Debug */,
+				52EDCC2D1C4F2045000181FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52EDCC2E1C4F2045000181FC /* Build configuration list for PBXNativeTarget "滑动按钮UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EDCC2F1C4F2045000181FC /* Debug */,
+				52EDCC301C4F2045000181FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52EDCBF31C4F2045000181FC /* Project object */;
+}
